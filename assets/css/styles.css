@@ -666,7 +666,7 @@ margin-bottom: var(--mb-1);
 
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
-.sign{
+.sign {
   font-size: 20px;
   line-height: calc(20px + 20vh);
 /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
@@ -730,3 +730,4 @@ margin-bottom: var(--mb-1);
     color: #fff6a9;
   }
 }
+
