@@ -8,7 +8,7 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 142;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --first-color: #00B1B1;
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -25,6 +25,7 @@
   --z-back: -10;
   --z-fixed: 100;
 }
+.typewrite { color:#FCB034; text-decoration: none;}
 .home__data
 {
   text-align: center;
