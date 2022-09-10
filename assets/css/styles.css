@@ -48,17 +48,7 @@
 
 
 
-.about__img img {
-  transition: 1s;
-}
 
-.about__img img:hover {
-  transform: scale(1.1);
-}
-
-.about__img:hover {
-  transform: scale(1.1);
-}
 
 
 @media screen and (min-width: 968px) {
@@ -326,6 +316,31 @@ img {
   border-radius: .5rem;
 }
 
+.about__img img {
+  transition: 1s;
+}
+
+.about__img img:hover {
+  transform: scale(1.1);
+}
+
+.about__img:hover {
+  transform: scale(1.1);
+}
+.about__img:hover {
+	cursor: pointer;
+}
+
+.about__img img {
+	filter: grayscale();
+	
+	
+}
+
+.about__img:hover img {
+	filter: none;
+}
+
 /* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
@@ -411,6 +426,8 @@ img {
 .work__img img:hover {
   transform: scale(1.1);
 }
+
+
 
 /* ===== CONTACT =====*/
 .contact__input {
@@ -678,67 +695,19 @@ margin-bottom: var(--mb-1);
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
 .sign {
-  font-size: 20px;
-  line-height: calc(20px + 20vh);
-/*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
-    0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
-  color: #fccaff; */
-  text-shadow: 0 0 5px #00ff99, 0 0 15px #00ff99, 0 0 20px #00ff99, 0 0 40px #00ff99, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  
-  font-family: "Sacramento", cursive;
-  text-align: center;
-  animation: blink 8s infinite;
-  -webkit-animation: blink 8s infinite;
+  font-size: 1em;
+  font-weight: 500;
+  color: #0d301a;
+  letter-spacing: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.7s;
 }
 
-
-
-@-webkit-keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-/*     color: #fccaff;
-    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
-      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
-  text-shadow: 0 0 5px #00ff99, 0 0 15px #00ff99, 0 0 20px #08bd74, 0 0 40px #00ff99, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  }
+.sign:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #00b1b1;
 }
-
-@keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-/*     color: #fccaff;
-    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
-      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; */
-  text-shadow: 0 0 5px #00ff99, 0 0 15px #00ff99, 0 0 20px #00ff99, 0 0 40px #00ff99, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  }
-}
-
