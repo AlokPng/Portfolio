@@ -357,8 +357,8 @@ img {
 
 .skills__data {
   display: flex;
-  width: 600px;
-  margin-right: 190px;
+  width: 450px;
+  margin-right: 280px;
   justify-content:space-between;
   align-items: center;
   position: static;
